@@ -1,0 +1,25 @@
+{
+  "name": "tree-sitter-mdx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bindings/node",
+  "scripts": {
+    "postinstall": "node-gyp configure",
+    "test": "tree-sitter test",
+    "build": "tree-sitter generate && node-gyp build"
+  },
+  "keywords": [
+    "mdx",
+    "nvim",
+    "treesitter"
+  ],
+  "author": "Sang Dang",
+  "license": "MIT",
+  "devDependencies": {
+    "tree-sitter-cli": "0.20.7",
+    "tree-sitter-lua": "2.1.3"
+  },
+  "dependencies": {
+    "nan": "2.17.0"
+  }
+}
