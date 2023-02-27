@@ -4,7 +4,6 @@
   "description": "",
   "main": "bindings/node",
   "scripts": {
-    "postinstall": "node-gyp configure",
     "test": "tree-sitter test",
     "build": "tree-sitter generate && node-gyp build"
   },
@@ -16,6 +15,12 @@
   "author": "Sang Dang",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "8.35.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "8.6.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-prettier": "4.2.1",
+    "prettier": "2.8.4",
     "tree-sitter-cli": "0.20.7",
     "tree-sitter-lua": "2.1.3"
   },

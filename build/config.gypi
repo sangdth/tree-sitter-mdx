@@ -356,6 +356,16 @@
     "want_separate_host_toolset": 0,
     "xcode_version": "12.0",
     "nodedir": "/Users/sangdang/Library/Caches/node-gyp/16.15.0",
-    "standalone_static_library": 1
+    "standalone_static_library": 1,
+    "metrics_registry": "https://registry.npmjs.org/",
+    "global_prefix": "/Users/sangdang/Library/Application Support/fnm/node-versions/v16.15.0/installation",
+    "local_prefix": "/Users/sangdang/Projects/tree-sitter-mdx",
+    "globalconfig": "/Users/sangdang/Library/Application Support/fnm/node-versions/v16.15.0/installation/etc/npmrc",
+    "init_module": "/Users/sangdang/.npm-init.js",
+    "userconfig": "/Users/sangdang/.npmrc",
+    "node_gyp": "/Users/sangdang/Library/Application Support/fnm/node-versions/v16.15.0/installation/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js",
+    "cache": "/Users/sangdang/.npm",
+    "user_agent": "npm/8.19.2 node/v16.15.0 darwin arm64 workspaces/false",
+    "prefix": "/Users/sangdang/Library/Application Support/fnm/node-versions/v16.15.0/installation"
   }
 }
